@@ -32,7 +32,7 @@ public class MainActivity extends Activity
 		progressBar = (ProgressBar) findViewById(R.id.progresss);
 		imageView = (ImageView) findViewById(R.id.imageView1);
 		//ejecutamos la tarea asícrona (podemos pasarle un array de cadenas)
-		new BackgroundTask().execute("http://danielmedotcom.files.wordpress.com/2012/02/icon-danielme.png");
+		new BackgroundTask().execute("https://danielmedotcom.files.wordpress.com/2013/01/android-tip.png");
 	}
 
 	  private class BackgroundTask extends AsyncTask<String, Void, String> 
